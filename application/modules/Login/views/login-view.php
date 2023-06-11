@@ -1,6 +1,6 @@
 <div class="login-box">
   <div class="login-logo">
-    <a href=""><b>Manpower Allocation </b> & Planning System</a>
+    <a href=""><b>Manpower Allocation  & Planning System </b> </a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">

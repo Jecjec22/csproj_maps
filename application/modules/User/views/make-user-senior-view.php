@@ -6,7 +6,7 @@
           <div class="box box-primary">
 
             <div class="box-header with-border">
-              <h3 class="box-title">Make an Employee Senior</h3>
+              <h3 class="box-title">Make a Supervisor</h3>
             </div>
             <?php echo form_open('User/makeUserSenior'); ?>
               <div class="box-body">
@@ -23,7 +23,7 @@
                 <?php endif; ?>
 
                 <div class="form-group">
-                  <label>Select Senior</label>
+                  <label>Select Supervisor</label>
                   <select name="senior_id" class="form-control">
                     <?php foreach($get_all_user as $val): ?>
 
@@ -36,7 +36,7 @@
 
               <div class="box-body">
               <div class="form-group">
-                <label>Employee</label>
+                <label>Select Employee</label>
                 <select name="junior_id[]" multiple="" class="form-control">
                   <?php foreach($get_all_user as $val): ?>
                     <option value="<?php echo $val['user_id'] ?>"><?php echo $val['user_name']; ?></option>

@@ -37,7 +37,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-users"></i> <span>Employee Section</span>
+            <i class="fa fa-users"></i> <span>Manage Employee </span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -45,14 +45,14 @@
           <ul class="treeview-menu">
             <li class=""><a href="<?php echo base_url('User/addUserPage'); ?>"><i class="fa fa-circle-o"></i> Add Employee </a></li>
             <li class=""><a href="<?php echo base_url('User/viewUserPage'); ?>"><i class="fa fa-circle-o"></i> View All Employee </a></li>
-            <li class=""><a href="<?php echo base_url('User/makeUserSeniorPage'); ?>"><i class="fa fa-circle-o"></i> Make Employee's Senior </a></li>
+            <li class=""><a href="<?php echo base_url('User/makeUserSeniorPage'); ?>"><i class="fa fa-circle-o"></i> Make Employee's Supervisor </a></li>
           </ul>
         </li>
         <!-- <li class="header">LABELS</li> -->
 
         <li class="treeview">
           <a href="#">
-            <i class="fa fa-file"></i> <span>To Do Tasks</span>
+            <i class="fa fa-file"></i> <span>Schedule Tasks</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>

@@ -16,7 +16,7 @@
                 </div>
                 <?php endif; ?>
                 <div class="form-group">
-                  <label for="todo_name">Task Name</label>
+                  <label for="todo_name">Project Name</label>
                   <?php echo form_input(['name' => 'todo_name', 'class' => 'form-control', 'id' => 'todo_name', 'placeholder' => 'Give your todo name']); ?>
                   <?php echo form_error('todo_name', '<div class="text-danger">', '</div>'); ?>
 
@@ -26,8 +26,8 @@
 
               <div class="box-body">
                 <div class="form-group">
-                  <label for="todo_comment">Comment</label>
-                  <?php echo form_textarea(['name' => 'todo_comment', 'class' => 'form-control', 'id' => 'todo_comment', 'placeholder' => 'Enter ToDo Comment', 'rows' => '4']); ?>
+                  <label for="todo_comment">Project Details</label>
+                  <?php echo form_textarea(['name' => 'todo_comment', 'class' => 'form-control', 'id' => 'todo_comment', 'placeholder' => 'Enter Project Details', 'rows' => '4']); ?>
                 </div>
               </div>
               <div class="box-body">

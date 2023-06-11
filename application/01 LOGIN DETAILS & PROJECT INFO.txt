@@ -13,7 +13,13 @@ Email   : admin@gmail.com
 Password: 123456
 
 
-**Employee Login Details**
+**Technician Login Details**
 
 Email   : keith@gmail.com
 Password: password
+
+Email   : swift13@gmail.com
+Password: swift1989
+
+Email   : patrick@gmail.com
+Password: rock12345

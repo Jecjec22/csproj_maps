@@ -21,7 +21,7 @@
                   <th>Employee Name</th>
                   <th>Role</th>
                   <th>Email</th>
-                  <th>Employee's Seniors</th>
+                  <th>Employee's Supervisor</th>
                   <th>Action</th>
                 </tr>
                 <?php $n = 1; foreach ($get_all_user as $value): ?>
