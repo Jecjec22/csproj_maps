@@ -32,7 +32,7 @@
               </div>
               <div class="box-body">
                 <div class="form-group">
-                  <label>Assign To Employee:</label>
+                  <label>Assign To Technician:</label>
                   <select name="assign_to" class="form-control">
                     <?php if($this->session->userdata('user_role') != 'Administrator'): ?>
                     <?php foreach($get_junior as $val): ?>

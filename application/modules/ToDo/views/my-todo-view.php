@@ -4,7 +4,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">My ToDo Task List</h3>
+              <h3 class="box-title">Project List</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
@@ -13,7 +13,7 @@
                 <tbody><tr>
                   <th>#</th>
                   <th>Task Name</th>
-                  <th>Assigned From</th>
+                 
                   <th>Date</th>
                   <th>Status</th>
                   <th>Comments</th>
@@ -26,7 +26,7 @@
 
                   <td><?php echo $n++; ?></td>
                   <td><?php echo $value['todo_name']; ?></td>
-                  <td><?php echo $value['user_name']; ?></td>
+                 
                   <td><?php echo $value['todo_date']; ?></td>
                   <?php if ($value['todo_status'] == 0): ?>
                   <td><span class="label label-warning">Pending</span></td>

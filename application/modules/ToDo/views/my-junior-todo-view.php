@@ -4,7 +4,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Employee's ToDo Task List</h3>
+              <h3 class="box-title">Technician's Task List</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
@@ -12,11 +12,11 @@
               <table class="table table-hover">
                 <tbody><tr>
                   <th>#</th>
-                  <th>Task name</th>
+                  <th>Project Name</th>
                   <th>Assigned To</th>
                   <th>Date</th>
                   <th>Status</th>
-                  <th>Comments</th>
+                  <th>Project Details</th>
                 </tr>
                 <?php $n = 1; foreach ($get_my_junior_todo_data as $value): ?>
 
